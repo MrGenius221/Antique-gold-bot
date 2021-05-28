@@ -29,7 +29,7 @@ module.exports = {
 				.setImage(command.uimage)
 				//.setThumbnail(client.user.displayAvatarURL())
 				.setColor('RANDOM')
-				.setFooter('Antique Gold', client.user.displayAvatarURL());
+				.setFooter('PokeKingdom', client.user.displayAvatarURL());
 
 			return message.channel.send(embed);
 		} else {
@@ -40,7 +40,7 @@ module.exports = {
 				.setThumbnail(client.user.displayAvatarURL())
 				.setColor('RANDOM') //set color I set random you can set like #FF00FF
 				.setDescription(
-					`**antique-gold prefix is  \`a!\`**. Use \`a!help {commamndname}\` for more info.  `
+					`**antique-gold prefix is  \`pk!\`**. Use \`pk!help {commamndname}\` for more info.  `
 				);
 			embed.addField(
 				`> Basic `,
